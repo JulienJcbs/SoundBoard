@@ -5,6 +5,7 @@
     border: solid 1px gray;
     background-color: rgb(20, 20, 20);
     margin: 20px;
+    border-radius: 20px;
 }
 
 .key:hover{
