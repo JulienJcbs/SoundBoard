@@ -1,0 +1,45 @@
+.key{
+    height: 160px;
+    width: 160px;
+    color: white;
+    border: solid 1px gray;
+    background-color: rgb(20, 20, 20);
+    margin: 20px;
+}
+
+.key:hover{
+    background: gray;
+    border: solid 1px black;
+}
+
+body{
+    background: rgb(60, 60, 60);
+    color: white;
+}
+
+#keyboard{
+    margin: auto;
+    text-align: center;
+    max-width: 600px;
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
+    margin-top: 100px;
+}
+
+h1{
+    text-align: center;
+}
+
+.keyPlaying{
+    height: 160px;
+    width: 160px;
+    color: black;
+    border: solid 1px gray;
+    background-color: white;
+    margin: 20px;
+}
+
+button{
+    font-size: 30px;
+}
